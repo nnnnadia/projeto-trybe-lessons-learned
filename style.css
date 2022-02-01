@@ -19,7 +19,7 @@ body {
 #titulo {
   text-align: center;
   padding-top: 15px;
-  font-family: "Montserrat Alternates", sans-serif;
+  font-family: 'Montserrat Alternates', sans-serif;
   line-height: 42px;
 }
 
@@ -43,7 +43,7 @@ body {
 
 #figura_ao_lado {
   float: right;
-  background-image: url("pimentinhas.png");
+  background-image: url('pimentinhas.png');
   background-position: 50%;
   width: 300px;
   height: 768px;

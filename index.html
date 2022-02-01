@@ -3,12 +3,15 @@
   <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;600&display=swap" rel="stylesheet"> 
     <title>Lessons Learned</title>
   </head>
   <body>
     <header id="cabecalho">
-      <h1 id="titulo">Algum texto</h1>
-      <nav>
+      <h1 id="titulo">Projeto: Lições Aprendidas!</h1>
+      <nav id="navegacao-principal">
         <ul>
           <li>Home</li>
           <li>Menu</li>
@@ -16,10 +19,12 @@
         </ul>
       </nav>
     </header>
-    <img id="minha_foto" src="pimentinhas.png" alt="Foto de pimentas">
+    <div id="figura-ao-lado">
+      <img id="minha_foto" src="pimentinhas.png" alt="Foto de pimentas">
+    </div>
     <section>
       <h2>Listas</h2>
-      <ol id="licoes_aprendidas">
+      <ol id="licoes_aprendidas" class="licoes">
         <li>UNIX</li>
         <li>Bash</li>
         <li>Git</li>
@@ -31,7 +36,7 @@
         <li>SoftSkills</li>
         <li>Lógica de Programação</li>
       </ol>
-      <ul id="licoes_a_aprender">
+      <ul id="licoes_a_aprender" class="licoes">
         <li>JavaScript</li>
         <li>Flexbox</li>
         <li>React</li>

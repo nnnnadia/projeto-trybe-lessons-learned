@@ -1,12 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   background-color: rgb(253, 251, 251);
 }
 
-header {
+#cabecalho {
   position: fixed;
   top: 0;
+  right: 0;
+  left: 0;
+  background-color: brown;
+  font-weight: bold;
+}
+
+#titulo {
+  text-align: center;
+  padding-top: 15px;
+  font-family: 'Montserrat Alternates', sans-serif;
+  line-height: 42px;
+}
+
+#navegacao-principal {
+  margin-left: 10px;
+}
+
+#navegacao-principal li {
+  display: inline-block;
+  font-family: monospace;
+  font-size: 20px;
+  padding: 10px;
+  border: solid 3px brown;
+  margin-bottom: 10px;
+}
+
+#navegacao-principal li:hover {
+  border: dashed 3px white;
+  color: white;
+}
+
+#figura-ao-lado {
+  float: right;
+  background-image: url(pimentinhas.png);
+  background-position: 50%;
+  width: 300px;
+  height: 800px;
 }
 
 #minha_foto {
-  width: 200px;
+  display: none;
+}
+
+.licoes{
+  display: inline-block;
+  list-style: none;
 }
